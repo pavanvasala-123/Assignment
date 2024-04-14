@@ -1,6 +1,6 @@
 import React from 'react'
 import '../ProductCard/ProductCard.css';
-import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+// import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 
 const ProductCard = ({eachProduct}) => {

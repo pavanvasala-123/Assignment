@@ -22,9 +22,20 @@
     list-style-type: none;
 
 }
-.bag_category_container img{
+.bag_category_container{
+    display: flex;
+    overflow-x: auto;
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+.bag_category_container::-webkit-scrollbar{
+    display: none;
+}
+.icon{
     
-    width: 100px;
-    mix-blend-mode:saturation;
+    color: white;
+   font-size: 150px!important;
+   margin-left: 15px;
+   outline:1px;
     
 }
