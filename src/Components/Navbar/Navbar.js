@@ -34,7 +34,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="bag_category_container">
-        {/* <img src="" alt="all_bags" /> */}
+        
         <div>
             <ShoppingBagIcon className="icon" />
             <p>All Bags</p>
