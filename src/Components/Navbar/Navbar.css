@@ -22,6 +22,9 @@
     list-style-type: none;
 
 }
+.navbar_links_container li{
+    cursor: pointer;
+}
 .bag_category_container{
     display: flex;
     overflow-x: auto;
