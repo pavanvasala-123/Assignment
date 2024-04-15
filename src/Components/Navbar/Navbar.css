@@ -37,8 +37,60 @@
 .icon{
     
     color: white;
-   font-size: 150px!important;
+   font-size: 150px;
    margin-left: 15px;
    outline:1px;
+   cursor: pointer;
+   font-size: 150px!important;
     
 }
+
+@media screen and (max-width:376px){
+    .icon{
+    
+        color: white;
+       font-size: 80px!important;
+       margin-left: 15px;
+       cursor: pointer;
+        
+    }
+    .navbar_top{
+        margin: 5px;
+    }
+    .navbar_links_container ul {
+        margin: 0 auto 0 auto;
+        overflow-x: scroll;
+        /* width: 100%; */
+        
+    }
+    .navbar_links_container{
+        overflow-x: scroll;
+    }
+    .navbar_links_container ul li{
+        gap: 1rem;
+    }
+
+
+}
+@media screen and (min-width: 376px) and (max-width: 767px) {
+    .icon {
+      font-size: 120px !important;
+    }
+  }
+  
+  /* Media query for screens between 768px and 1024px (e.g., small laptop) */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar_top {
+      margin: 10px;
+    }
+    .icon {
+      font-size: 130px !important;
+    }
+  }
+  
+  /* Media query for screens larger than 1024px (e.g., desktop) */
+  @media screen and (min-width: 1025px) {
+    .navbar_top {
+      margin: 20px;
+    }
+  }

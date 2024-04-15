@@ -9,3 +9,10 @@ body{
   font-family: sans-serif;
   margin: 0 20% 0 20%;
 }
+
+@media screen and (max-width: 376px) {
+  body{
+    margin: 5%!important;
+  }
+
+}
