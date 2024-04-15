@@ -1,25 +1,39 @@
 .slider-container {
     display: flex;
+    flex-direction: column;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    
+  }
+  .revies_cards_container{
+    display: flex;
     overflow: hidden;
-    width: 100%;
-    max-width: 600px; /* Adjust to your desired width */
-    margin: auto;
+    margin-top: 20px;
+    
   }
   
   .slide {
     flex: 0 0 100%;
     transition: transform 0.5s ease;
   }
+  .review_con_sub_heading{
+    font-size: 14px;
+  }
+ .reviews_heading{
+  color: aquamarine;
+ }
   
   .card {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    color: white;
+    color:white;
     background-color:#141414;
     height: 200px;
     margin-left: 40px;
+    width: 300px;
+   
   }
   
   .active {

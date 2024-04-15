@@ -106,7 +106,10 @@ const Review = () => {
 
   return (
     <div className="slider-container">
-      {reviewdata.map((item, index) => (
+      <h3 className='reviews_heading'>Customer Reviews</h3>
+      <p className='review_con_sub_heading'>What Our Customer Saying</p>
+     <div className='revies_cards_container'>
+     {reviewdata.map((item, index) => (
         <div
           key={index}
           className={`slide ${index === currentIndex ? 'active' : ''}`}
@@ -120,6 +123,7 @@ const Review = () => {
           </div>
         </div>
       ))}
+     </div>
     </div>
   );
 };
