@@ -9,6 +9,7 @@
     display: flex;
     overflow: hidden;
     margin-top: 20px;
+    text-align: left;
     
   }
   
@@ -21,6 +22,16 @@
   }
  .reviews_heading{
   color: aquamarine;
+ }
+
+ .reviewer_name{
+  
+ }
+ .review{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
  }
   
   .card {
@@ -50,4 +61,8 @@
     .slide {
       flex: 0 0 100%; /* Display one card per slide */
     }
+  }
+
+  .rating{
+    margin: 5px;
   }
